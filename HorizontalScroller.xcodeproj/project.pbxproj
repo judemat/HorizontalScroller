@@ -18,6 +18,11 @@
 		85C171291613760E00E841C8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C171281613760E00E841C8 /* Default-568h@2x.png */; };
 		85C1712C1613760E00E841C8 /* HSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C1712B1613760E00E841C8 /* HSViewController.m */; };
 		85C1712F1613760E00E841C8 /* HSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C1712D1613760E00E841C8 /* HSViewController.xib */; };
+		85C17138161381E000E841C8 /* scroller_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C17136161381E000E841C8 /* scroller_background.png */; };
+		85C17139161381E000E841C8 /* scroller_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C17137161381E000E841C8 /* scroller_background@2x.png */; };
+		85C1713B1613AD4500E841C8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C1713A1613AD4500E841C8 /* QuartzCore.framework */; };
+		85C1715A1613DB1E00E841C8 /* egg_shell.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C171581613DB1E00E841C8 /* egg_shell.png */; };
+		85C1715B1613DB1E00E841C8 /* egg_shell@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C171591613DB1E00E841C8 /* egg_shell@2X.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,11 @@
 		85C1712A1613760E00E841C8 /* HSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSViewController.h; sourceTree = "<group>"; };
 		85C1712B1613760E00E841C8 /* HSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSViewController.m; sourceTree = "<group>"; };
 		85C1712E1613760E00E841C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HSViewController.xib; sourceTree = "<group>"; };
+		85C17136161381E000E841C8 /* scroller_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroller_background.png; sourceTree = "<group>"; };
+		85C17137161381E000E841C8 /* scroller_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scroller_background@2x.png"; sourceTree = "<group>"; };
+		85C1713A1613AD4500E841C8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		85C171581613DB1E00E841C8 /* egg_shell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg_shell.png; sourceTree = "<group>"; };
+		85C171591613DB1E00E841C8 /* egg_shell@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "egg_shell@2X.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C1713B1613AD4500E841C8 /* QuartzCore.framework in Frameworks */,
 				85C171131613760E00E841C8 /* UIKit.framework in Frameworks */,
 				85C171151613760E00E841C8 /* Foundation.framework in Frameworks */,
 				85C171171613760E00E841C8 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +84,7 @@
 		85C171111613760E00E841C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85C1713A1613AD4500E841C8 /* QuartzCore.framework */,
 				85C171121613760E00E841C8 /* UIKit.framework */,
 				85C171141613760E00E841C8 /* Foundation.framework */,
 				85C171161613760E00E841C8 /* CoreGraphics.framework */,
@@ -96,6 +108,7 @@
 		85C171191613760E00E841C8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				85C17135161381D400E841C8 /* Images */,
 				85C1711A1613760E00E841C8 /* HorizontalScroller-Info.plist */,
 				85C1711B1613760E00E841C8 /* InfoPlist.strings */,
 				85C1711E1613760E00E841C8 /* main.m */,
@@ -105,6 +118,17 @@
 				85C171281613760E00E841C8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85C17135161381D400E841C8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				85C171581613DB1E00E841C8 /* egg_shell.png */,
+				85C171591613DB1E00E841C8 /* egg_shell@2X.png */,
+				85C17136161381E000E841C8 /* scroller_background.png */,
+				85C17137161381E000E841C8 /* scroller_background@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +188,10 @@
 				85C171271613760E00E841C8 /* Default@2x.png in Resources */,
 				85C171291613760E00E841C8 /* Default-568h@2x.png in Resources */,
 				85C1712F1613760E00E841C8 /* HSViewController.xib in Resources */,
+				85C17138161381E000E841C8 /* scroller_background.png in Resources */,
+				85C17139161381E000E841C8 /* scroller_background@2x.png in Resources */,
+				85C1715A1613DB1E00E841C8 /* egg_shell.png in Resources */,
+				85C1715B1613DB1E00E841C8 /* egg_shell@2X.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +285,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HorizontalScroller/HorizontalScroller-Prefix.pch";
 				INFOPLIST_FILE = "HorizontalScroller/HorizontalScroller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -268,7 +298,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HorizontalScroller/HorizontalScroller-Prefix.pch";
 				INFOPLIST_FILE = "HorizontalScroller/HorizontalScroller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
